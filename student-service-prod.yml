@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: student-service
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  datasource:
+    url: abc
+    password: password
+    username: postgres
