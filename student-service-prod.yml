@@ -6,6 +6,6 @@ spring:
       ddl-auto: update
     show-sql: true
   datasource:
-    url: abc
+    url: 'Hello well done'
     password: password
     username: postgres
