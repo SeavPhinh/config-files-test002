@@ -5,5 +5,5 @@ spring:
     show-sql: true
   datasource:
     url: jdbc:postgresql://localhost:5020/course_db
-    password: password
+    password: {cipher}6bbe69db4bced4b14f6ed54f11f9867442445aa3a89d7ee94d96904a2e307710
     username: postgres
