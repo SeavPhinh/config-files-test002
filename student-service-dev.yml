@@ -9,4 +9,4 @@ spring:
     url: jdbc:postgresql://localhost:5010/student_db
     password: '{cipher}996ddb68c16799e20d0635d4f375f45717ae79799ef60a15bbf1408664f13cb2'
 #    password: password
-    username: postgres
+    username: postgressssss
