@@ -9,13 +9,4 @@ spring:
     url: jdbc:postgresql://localhost:5020/course_db
     password: '{cipher}6bbe69db4bced4b14f6ed54f11f9867442445aa3a89d7ee94d96904a2e307710'
     username: postgres
-eureka:
-  client:
-    register-with-eureka: true
-    fetch-registry: true
-    serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
-    enabled: true
-  instance:
-    hostname: localhost
-    prefer-ip-address: true
+

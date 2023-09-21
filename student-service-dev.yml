@@ -10,13 +10,3 @@ spring:
     password: '{cipher}db46886b09ad429b10a94eee95066903d5821f31151fa3fa050f67d486aafd0e'
 #    password: password
     username: postgres
-eureka:
-  client:
-    register-with-eureka: true
-    fetch-registry: true
-    serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
-    enabled: true
-  instance:
-    hostname: localhost
-    prefer-ip-address: true
